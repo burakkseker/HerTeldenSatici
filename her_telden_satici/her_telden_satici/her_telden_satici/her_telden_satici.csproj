@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{955016ED-E90E-4F8D-9B16-15397AEFC345}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>her_telden_satici</RootNamespace>
+    <AssemblyName>her_telden_satici</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="müsteriKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="müsteriKayit.Designer.cs">
+      <DependentUpon>müsteriKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stoklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stoklar.Designer.cs">
+      <DependentUpon>stoklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="siparisAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="siparisAl.Designer.cs">
+      <DependentUpon>siparisAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="müsteriDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="müsteriDüzenle.Designer.cs">
+      <DependentUpon>müsteriDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="satislar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satislar.Designer.cs">
+      <DependentUpon>satislar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hakkinda.Designer.cs">
+      <DependentUpon>hakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hesapDökümü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hesapDökümü.Designer.cs">
+      <DependentUpon>hesapDökümü.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kisiseliletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kisiseliletisim.Designer.cs">
+      <DependentUpon>Kisiseliletisim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Okuliletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Okuliletisim.Designer.cs">
+      <DependentUpon>Okuliletisim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="komurTakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="komurTakip.Designer.cs">
+      <DependentUpon>komurTakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="müsteriKayit.resx">
+      <DependentUpon>müsteriKayit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stoklar.resx">
+      <DependentUpon>stoklar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="siparisAl.resx">
+      <DependentUpon>siparisAl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="müsteriDüzenle.resx">
+      <DependentUpon>müsteriDüzenle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="satislar.resx">
+      <DependentUpon>satislar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hakkinda.resx">
+      <DependentUpon>hakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hesapDökümü.resx">
+      <DependentUpon>hesapDökümü.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kisiseliletisim.resx">
+      <DependentUpon>Kisiseliletisim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="komurTakip.resx">
+      <DependentUpon>komurTakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Okuliletisim.resx">
+      <DependentUpon>Okuliletisim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesika.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesika_50x50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesika_120x150.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
